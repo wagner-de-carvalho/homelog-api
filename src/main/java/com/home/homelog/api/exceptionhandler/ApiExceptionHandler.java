@@ -41,7 +41,7 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
 		var problema = new Problema();
 		problema.setStatus(status.value());
 		problema.setDataHora(LocalDateTime.now());
-		problema.setTitulo("Campo inválido");
+		problema.setTitulo("Um ou mais campos inválido. Preencha-os e tente novamente");
 		problema.setCampos(campos);
 
 		return handleExceptionInternal(ex, problema, headers, status, request);
