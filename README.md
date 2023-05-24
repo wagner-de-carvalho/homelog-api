@@ -9,3 +9,6 @@ Para iniciar o projeto, no terminal:
 A injeção de dependência do **spring Jakarta JPA** é feita pela anotação **@Autowired**. Porém, para facilitar testes, utilizamos um construtor da classe/interface de repositório, fornecido pela biblioteca **lombok** através da anotação **AllargsConstructor**.
 - `@Controller` = esta anotação indica ao **Spring** que a classe em questão é um controlador, portanto apto a receber requisições.
 - `@ControllerAdvice` = esta anotação indica ao **Spring** que a classe em questão é um tratador de exceções lançadas por quaisquer rotas.
+
+### Notas
+Vide curso [Algaworks - Java + Angular](https://app.algaworks.com/meus-cursos/angular-rest-spring-boot) à partir do módulo 22.
